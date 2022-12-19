@@ -1,0 +1,36 @@
+body {
+    width: auto;
+    height: auto;
+    background-color: #1A191B;
+}
+p {text-indent: 2em; padding-left:10px;margin-left:5px;}
+
+
+
+.main {
+    display: flex;
+    margin-left:5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:auto;
+    width: 90%;
+    color:white;
+    padding:20px;
+    font-size: normal;
+    font-family: "iAWriterMonoS-Regular";
+}
+
+.txt { 
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:auto;
+}
+
+@font-face {
+    font-family: 'iAWriterMonoS-Regular'; /*a name to be used later*/
+    src: url('./iAWriterMonoS-Regular.ttf'); /*URL to font*/
+}
